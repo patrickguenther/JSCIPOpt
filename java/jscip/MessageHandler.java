@@ -39,7 +39,7 @@ public abstract class MessageHandler
             }
          }
       };
-      objmessagehdlr.swigReleaseOwnership();
+      //objmessagehdlr.swigReleaseOwnership();
       _messagehdlrptr = SCIPJNI.createObjMessagehdlr(objmessagehdlr, 1);
    }
 
